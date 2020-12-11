@@ -35,8 +35,7 @@
  * This may be used to avoid symbol conflicts between multiple libraries
  * that may both incorporate PLCrashReporter.
  */
-// #define PLCRASHREPORTER_PREFIX AcmeCo
-
+ #define PLCRASHREPORTER_PREFIX BSC
 
 // We need two extra layers of indirection to make CPP substitute
 // the PLCRASHREPORTER_PREFIX define.
