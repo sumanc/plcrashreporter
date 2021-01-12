@@ -187,7 +187,7 @@ static NSInteger binaryImageSort(id binary1, id binary2, void *context);
         }
     
         [text appendFormat: @"Incident Identifier: %@\n", incidentIdentifier];
-        [text appendFormat: @"Custom Data:         %@\n", report.customData ? [NSString stringWithUTF8String:[report.customData bytes]] : @"None"];
+        [text appendFormat: @"Crony Session ID:    %@\n", report.customData ? [NSString stringWithUTF8String:[report.customData bytes]] : @"None"];
         [text appendFormat: @"Hardware Model:      %@\n", hardwareModel];
     }
     
